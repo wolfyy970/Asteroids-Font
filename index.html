@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asteroids Font Demo</title>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #game-container {
+            margin-bottom: 20px;
+        }
+        .controls {
+            margin-top: 20px;
+            text-align: center;
+        }
+        input {
+            padding: 10px;
+            font-size: 16px;
+            width: 300px;
+            margin-right: 10px;
+            background: #333;
+            color: #fff;
+            border: 1px solid #666;
+            border-radius: 4px;
+        }
+        .description {
+            max-width: 600px;
+            margin: 20px auto;
+            text-align: center;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Asteroids Font Demo</h1>
+    <div class="description">
+        This demo showcases a Phaser-compatible implementation of the classic Asteroids arcade game vector font.
+        Type in the input below to see your text rendered in real-time using the original vector-based characters.
+    </div>
+    <div id="game-container"></div>
+    <div class="controls">
+        <input type="text" id="text-input" placeholder="Type something..." value="ASTEROIDS FONT" maxlength="30">
+    </div>
+    <script type="module" src="demo.js"></script>
+</body>
+</html>
