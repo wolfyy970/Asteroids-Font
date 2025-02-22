@@ -1,4 +1,4 @@
-import { AsteroidsFontRenderer } from './asteroids-font.js';
+import { AsteroidsFontRenderer } from 'asteroids-font.js';
 
 class DemoScene extends Phaser.Scene {
     constructor() {
