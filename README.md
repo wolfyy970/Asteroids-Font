@@ -20,7 +20,7 @@ A Phaser-compatible implementation of the classic Asteroids arcade game vector f
 
 ```bash
 # Clone the repository
-git clone https://github.com/wolfyy970/Asteroids-Font.git
+git clone https://github.com/wolfyy970/asteroids-phaser-font.git
 
 # Or install via npm (coming soon)
 # npm install phaser-asteroids-font
